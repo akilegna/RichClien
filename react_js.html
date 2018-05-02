@@ -27,11 +27,15 @@ class: center, middle
 
 # Agenda
 
-
+<hr>
 1. Was ist react.js?
+
 2. write `hello world`
+
 3. Square, Board, Game Komponenten
+
 4. Daten über Props übergeben
+
 5. Keys
 
 ---
@@ -97,7 +101,10 @@ class Board extends React.Component {
 - Wenn man eine Liste von Elementen rendern möchte, speichert React immer Informationen zu jedem Element in der Liste
 - Wenn man eine Komponente mit einem Status rendert, wird der Status gespeichert
       - unabhängig davon wird bei einer implementierung ein Verweis auf die systemeigenen Backing-Ansichten.
-      
+- key ist eine spezielle Eigenschaft die von React.js reserviert ist
+- React verwendet den Schlüssel automatisch, um zu entschieden, welche Kinder Aktualisiert werden sollen
+      - Wenn eine Liste neu gerendert wird, nimmt React jedes Element in der neuen Version
+      - je nachdem ob etwas gelöscht wurde oder hinzugefügt reagier React.js mit 
 ---      
       
     </textarea>
